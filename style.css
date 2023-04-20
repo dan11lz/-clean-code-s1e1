@@ -34,7 +34,8 @@ body {
   margin: 0 auto 0;
 }
 
-.input {
+.input,
+.label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -84,6 +85,11 @@ body {
   text-transform: uppercase;
 }
 
+.add-item {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
 .input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -104,7 +110,7 @@ body {
 /* New Task */
 .label[for="add-item-input"] {
   display: block;
-  margin: 0 0 20px;
+  margin: 0;
 }
 
 #add-item-input {
