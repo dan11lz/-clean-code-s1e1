@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.matrix-img {
+.header__img {
   width: 100%;
 }
 
-.header .more-info {
+.header .header__info {
   font-family: fantasy, cursive;
 }
 
@@ -147,13 +147,13 @@ body {
   width: 226px;
 }
 
-.delete-btn.btn .btn-img {
+.delete-btn.btn .btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-btn.btn .btn-img:hover {
+.delete-btn.btn .btn__img:hover {
   transform: rotateZ(0);
 }
 
